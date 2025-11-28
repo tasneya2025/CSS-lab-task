@@ -1,0 +1,51 @@
+.userCard{
+    background-color: rgb(222, 236, 248);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    position: relative;
+    top: 140px;
+    right: 0px;
+    bottom: 0px;
+    left: 500px;
+    height: 300px;
+    width: 550px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2%;
+ 
+}
+.profilePhoto{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 70px 0px 0px 30px ;
+     background-image: url("pic.jpg"); 
+     background-size:cover;
+    
+
+  
+}
+.info{
+    position: relative;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 100px;
+  
+
+}
+.info {
+    position: absolute;
+    top: 90px;
+    left: 230px;    
+}
+.badge{
+    position: absolute;
+    top: 10px;      
+    right: 10px;    
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(85, 164, 243);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}

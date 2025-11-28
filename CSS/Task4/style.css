@@ -1,0 +1,55 @@
+h1{
+  text-align: center;
+
+}
+div{
+  height: 200px;
+  width: 320px;
+  margin-left: 150px;
+  border: 1.5px solid rgb(21, 21, 21);
+  display: inline-block;
+  transition: outline 0.2s ease, outline-offset 0.2s ease;
+}
+#box1{
+ background-image: url("laptop.jpg"); 
+ background-size:contain;
+ background-repeat: no-repeat;
+ text-align: center;
+
+}
+#box2{
+ background-image: url("hp.jpg"); 
+ background-size:contain;
+ background-repeat: no-repeat;
+ margin-top: 20px;
+ text-align: center;
+
+}
+#box3{
+ background-image: url("sw.jpg"); 
+ background-size:contain;
+ background-repeat: no-repeat;
+text-align: center;
+
+}
+.header{
+  margin-top: 220px;
+ 
+}
+
+.price{
+  text-align: center;
+}
+
+a{
+   
+   text-decoration: none;
+   color: black;
+   text-align: center;
+
+
+}
+div:hover {
+  outline: 3px solid #4a90e2;   
+  outline-offset: 4px;         
+}
