@@ -1,0 +1,75 @@
+
+.box1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    overflow: visible; /*  Default.  The content overflow outside the element's box      */
+}
+
+
+
+/*
+.box1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    overflow:auto;  scrollbar added when only 
+
+}
+    */
+
+/*
+
+.box1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    overflow:hidden; The overflow is clipped, and the rest of the content is hidden
+}
+
+*/
+
+
+/*
+.box1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    overflow:scroll;  Scrollbars are added. User must scroll to see all content
+}
+*/
+
+/*
+.box1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+*/
+
+/*
+.box1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    overflow-x:scroll;
+    overflow-y: hidden;
+}
+
+
+*/
+
+
+
+
+
+

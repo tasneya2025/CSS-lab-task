@@ -1,4 +1,4 @@
-.nav{
+header{
     display: block;
     padding: 10px;
     height: 60px;
@@ -8,7 +8,9 @@
     text-align: center;
     position: sticky;
     top: 0px;
+    z-index: 100;
     border-bottom: 2px solid blue;
+   
   
 
  
@@ -22,7 +24,3 @@ a{
 
 }
 
-#htag{
-text-align: center;
-
-}
