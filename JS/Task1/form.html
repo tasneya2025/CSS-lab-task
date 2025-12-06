@@ -8,17 +8,22 @@
         <form onsubmit="return formvalidate()">
             <fieldset>
 
-                <label for="name">Full Name: </label>
-                <input type="text" id="name">
-                <span id="nameErr"></span> <br><br>
+                <h2>Student Form</h2>
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" placeholder="John">
+                <span id="fnameErr"></span> <br><br>
+
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" placeholder="Smith">
+                <span id="lnameErr"></span> <br><br>
 
                 <label for="email">Email:</label>
-                <input type="text" id="email">
+                <input type="text" id="email" placeholder="john56@gmail.com">
                 <span id="emailErr"></span><br><br>
 
 
                 <label for="pass">Password:</label>
-                <input type="password" id="pass">
+                <input type="password" id="pass" placeholder="Please enter 8 digits">
                 <span id="passErr"></span><br><br>
 
 
@@ -28,7 +33,7 @@
 
 
                 <label for="phone">Phone:</label>
-                <input type="number" id="phone">
+                <input type="number" id="phone" placeholder="01*********">
                 <span id="numErr"></span><br><br>
 
                 <button type="submit">Submit</button>

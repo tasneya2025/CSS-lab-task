@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <script src ="script.js" defer></script>
+    
+</head>
+<body>
+
+    <h2>Student Management System</h2>
+
+    <div class="input-group">
+        <input type="text" id="name" placeholder="John Doe">
+        <input type="number" id="roll" placeholder="509">
+        <input type="text" id="dept" placeholder="EEE/CSE/IPE/COE">
+        <button id="add-btn" onclick="addStudent()">Add Student</button>
+    </div>
+
+    <table>
+        
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Department</th>
+            <th>Action</th>
+        </tr>
+        <tbody id="student-table-body"></tbody>
+    </table>
+</body>
+</html>

@@ -1,10 +1,12 @@
-const nametf=document.getElementById("name");
+const fnametf=document.getElementById("fname");
+const lnametf=document.getElementById("lname");
 const email=document.getElementById("email");
 const pass=document.getElementById("pass");
 const cp=document.getElementById("cp");
 const phone=document.getElementById("phone");
 
-const nameErr=document.getElementById("nameErr");
+const fnameErr=document.getElementById("fnameErr");
+const lnameErr=document.getElementById("lnameErr");
 const emailErr=document.getElementById("emailErr");
 const passErr=document.getElementById("passErr");
 const confpassErr=document.getElementById("conpassErr");
@@ -16,22 +18,48 @@ function formvalidate()
 {
     const nameRegex=/^[a-zA-Z]+$/;
     const emailRegex=/\S+@\S+\.\S+/;
+
+
     let hasErr=false;
-    if(nametf.value.trim()==="")
+    if(fnametf.value.trim()==="")
     {
         hasErr=true;
-        nameErr.innerHTML="name can not be empty";
-        nameErr.style.color="red";
+        fnameErr.innerHTML="name can not be empty";
+        fnameErr.style.color="red";
     }
     else
     {
-        if(!nameRegex.test(nametf.value))
+        if(!nameRegex.test(fnametf.value))
         {
             hasErr=true;
-            nameErr.innerHTML="name can not have any symbol or numbers";
-            nameErr.style.color="red";
+            fnameErr.innerHTML="name can not have any symbol or numbers";
+            fnameErr.style.color="red";
         }
     }
+
+
+    
+   
+    if(lnametf.value.trim()==="")
+    {
+        hasErr=true;
+        lnameErr.innerHTML="name can not be empty";
+        lnameErr.style.color="red";
+    }
+    else
+    {
+        if(!nameRegex.test(lnametf.value))
+        {
+            hasErr=true;
+            lnameErrnameErr.innerHTML="name can not have any symbol or numbers";
+            lnameErrnameErr.style.color="red";
+        }
+    }
+
+
+
+
+
     if(email.value.trim()==="")
         {
             hasErr=true;
